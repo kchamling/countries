@@ -189,9 +189,3 @@ main {
     justify-content: center;
   }
 }
-
-@media (width <= 640px) {
-  html {
-    font-size: 62.5%;
-  }
-}

@@ -49,7 +49,7 @@
 .border-countries {
   margin-top: 48px;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 8px;
 }
@@ -59,6 +59,11 @@
   box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.border-countries a:hover {
+  transform: scale(1.1);
 }
 
 @media (width <= 940px) {
