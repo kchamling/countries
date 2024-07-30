@@ -1,0 +1,40 @@
+html {
+  --shimmer-color: hsl(0, 0%, 78%);
+}
+
+html.dark {
+  --shimmer-color: hsl(208, 21%, 34%);
+}
+
+.shimmer-card {
+  height: 338px;
+  background-color: var(--background-color);
+}
+
+.shimmer-card .flag-container {
+  background-color: var(--shimmer-color);
+  height: 200px;
+}
+
+.card-detail {
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+.card-detail .card-title {
+  height: 32px;
+  background-color: var(--shimmer-color);
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.card-detail p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 22px;
+  border-radius: 4px;
+  background-color: var(--shimmer-color);
+}
+
+.card-detail p:last-child {
+  width: 60%;
+}

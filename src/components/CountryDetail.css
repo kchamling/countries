@@ -1,0 +1,78 @@
+.country-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.back-button {
+  display: flex;
+  align-items: center;
+  width: 110px;
+  padding: 6px 24px;
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.country-detail {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.country-detail > img {
+  width: 50%;
+  border: 1px solid #ddd;
+}
+
+.details-text-container {
+  width: 100%;
+}
+
+.details-text-container > h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-block: 1rem;
+}
+.country-details-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 64px;
+}
+
+.country-details-text .left,
+.country-details-text .right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.border-countries {
+  margin-top: 48px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.border-countries a {
+  padding: 4px 16px;
+  box-shadow: 0 0 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+@media (width <= 940px) {
+  .country-detail {
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+    align-items: start;
+  }
+  .country-details-text {
+    grid-template-columns: 1fr;
+  }
+  .country-detail > img {
+    width: 100%;
+    max-width: 400px;
+  }
+}
