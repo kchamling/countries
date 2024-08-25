@@ -5,4 +5,4 @@ The Geonations REST API project is inspired by a popular challenge from Frontend
 ![Alt Text](https://kamanchamling.netlify.app/assets/countries-pAqBijhB.webp)
 
 ## Project Link
-Find the project on GitHub: [Geonations](https://geonations-info.netlify.app/)
+Find the project on: [Geonations](https://geonations-info.netlify.app/)
