@@ -1,8 +1,9 @@
-# React + Vite
+# Geonations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Countries API](https://example.com/your-image.png)
 
-Currently, two official plugins are available:
+The Geonations REST API project is inspired by a popular challenge from Frontend Mentor. This project integrates an API to pull country data around the world and build an interactive and informative web applications with theme switcher.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Link
+
+Find the project on GitHub: [Countries API](https://geonations-info.netlify.app/)
